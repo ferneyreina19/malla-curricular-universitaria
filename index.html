@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malla Curricular - Economía</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Malla Curricular - Economía</h1>
+    <div id="acciones">
+  <button id="limpiar-progreso">🔄 Limpiar progreso</button>
+</div>
+<div id="progreso">
+  <div id="barra-progreso">
+    <div id="progreso-interno"></div>
+  </div>
+  <p id="info-progreso">Materias cursadas: 0 | Créditos: 0</p>
+</div>
+    <div id="malla-container">
+      <div class="semestre" data-semestre="1">
+    <h2>SEMESTRE 1</h2>
+<div class="materia" data-codigo="POL101" data-semestre="1" data-prerequisitos="" data-creditos="3">
+  <h3>Ideas Políticas</h3>
+  <p>Créditos: 3</p>
+</div>
+
+<div class="materia" data-codigo="PCA101" data-semestre="1" data-prerequisitos="" data-creditos="2">
+  <h3>Pensamiento Crítico y Argumentación I</h3>
+  <p>Créditos: 2</p>
+</div>
+
+<div class="materia" data-codigo="ECO101" data-semestre="1" data-prerequisitos="" data-creditos="2">
+  <h3>Introducción a la Economía I</h3>
+  <p>Créditos: 2</p>
+</div>
+
+<div class="materia" data-codigo="ECOL101" data-semestre="1" data-prerequisitos="" data-creditos="4">
+  <h3>Economía Colombiana</h3>
+  <p>Créditos: 4</p>
+</div>
+
+<div class="materia" data-codigo="MAT101" data-semestre="1" data-prerequisitos="" data-creditos="3">
+  <h3>Matemáticas I</h3>
+  <p>Créditos: 3</p>
+</div>
+
+<div class="materia" data-codigo="ETC101" data-semestre="1" data-prerequisitos="" data-creditos="2">
+  <h3>Ética y Competencias Ciudadanas</h3>
+  <p>Créditos: 2</p>
+</div>
+
+<div class="materia" data-codigo="IDM101" data-semestre="1" data-prerequisitos="" data-creditos="2">
+  <h3>Idioma I</h3>
+  <p>Créditos: 2</p>
+</div>
+</div>
+<div class="semestre" data-semestre="2">
+<h2>SEMESTRE 2</h2>
+
+<div class="materia" data-codigo="POL102" data-semestre="2" data-prerequisitos="" data-creditos="2">
+  <h3>Instituciones Políticas</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="PCA102" data-semestre="2" data-prerequisitos="PCA101" data-creditos="2">
+  <h3>Pensamiento Crítico y Argumentación II</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="ECO102" data-semestre="2" data-prerequisitos="ECO101" data-creditos="4">
+  <h3>Introducción a la Economía II</h3><p>Créditos: 4</p>
+</div>
+<div class="materia" data-codigo="ALG101" data-semestre="2" data-prerequisitos="" data-creditos="3">
+  <h3>Álgebra Lineal</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="MAT102" data-semestre="2" data-prerequisitos="MAT101" data-creditos="3">
+  <h3>Matemáticas II</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="CON101" data-semestre="2" data-prerequisitos="" data-creditos="2">
+  <h3>Introducción a la Contabilidad</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="IDM102" data-semestre="2" data-prerequisitos="IDM101" data-creditos="2">
+  <h3>Idioma II</h3><p>Créditos: 2</p>
+</div>
+</div>
+<div class="semestre" data-semestre="3">
+<h2>SEMESTRE 3</h2>
+
+<div class="materia" data-codigo="CONSTIT101" data-semestre="3" data-prerequisitos="POL102" data-creditos="2">
+  <h3>Constitucional Colombiano</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="MICRO101" data-semestre="3" data-prerequisitos="ECO102,MAT102" data-creditos="4">
+  <h3>Microeconomía I</h3><p>Créditos: 4</p>
+</div>
+<div class="materia" data-codigo="EST101" data-semestre="3" data-prerequisitos="MAT101" data-creditos="2">
+  <h3>Fundamentos de Estadística</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="MAT103" data-semestre="3" data-prerequisitos="MAT102" data-creditos="3">
+  <h3>Matemáticas III</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="HIST101" data-semestre="3" data-prerequisitos="PCA101,PCA102" data-creditos="3">
+  <h3>Historia de los Hechos Económicos</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="MATF101" data-semestre="3" data-prerequisitos="" data-creditos="2">
+  <h3>Matemáticas Financieras</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="IDM103" data-semestre="3" data-prerequisitos="IDM102" data-creditos="2">
+  <h3>Idioma III</h3><p>Créditos: 2</p>
+</div>
+</div>
+<div class="semestre" data-semestre="4">
+<h2>SEMESTRE 4</h2>
+<div class="materia" data-codigo="MACRO101" data-semestre="4" data-prerequisitos="MICRO101" data-creditos="3">
+    <h3>Macroeconomía I</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="MICRO102" data-semestre="4" data-prerequisitos="MICRO101,ALG101" data-creditos="3">
+    <h3>Microeconomía II</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="OPT101" data-semestre="4" data-prerequisitos="MAT103" data-creditos="4">
+    <h3>Optimizacion</h3><p>Créditos: 4</p>
+</div>
+<div class="materia" data-codigo="EST102" data-semestre="4" data-prerequisitos="EST101" data-creditos="3">
+    <h3>Estadistica II</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="HIST102" data-semestre="4" data-prerequisitos="HIST101" data-creditos="3">
+    <h3>Historia Economica de Colombia</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="IDM104" data-semestre="4" data-prerequisitos="IDM103" data-creditos="2">
+    <h3>Idioma IV</h3><p>Créditos: 2</p>   
+</div>
+</div>
+<div class="semestre" data-semestre="5">
+<h2>SEMESTRE 5</h2>
+<div class="materia" data-codigo="ECON101" data-semestre="5" data-prerequisitos="EST102" data-creditos="3">
+    <h3>Econometria I</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="MACRO102" data-semestre="5" data-prerequisitos="MACRO101" data-creditos="4">
+    <h3>Macroeconomía II</h3><p>Créditos: 4</p>
+</div>
+<div class="materia" data-codigo="MICRO103" data-semestre="5" data-prerequisitos="MICRO102,OPT101" data-creditos="4">
+    <h3>Asignacion de Recursos</h3><p>Créditos: 4</p>
+</div>
+<div class="materia" data-codigo="DER101" data-semestre="5" data-prerequisitos="MICRO101" data-creditos="2">
+    <h3>Analisis Economico del Derecho</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="EVAL101" data-semestre="5" data-prerequisitos="MATF101,MICRO101,CON101" data-creditos="3">
+    <h3>Evaluacion Financiera y Social de proyectos</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="IDM105" data-semestre="5" data-prerequisitos="IDM104" data-creditos="2">
+    <h3>Idioma V</h3><p>Créditos: 2</p>
+</div>
+</div>
+<div class="semestre" data-semestre="6">
+<h2>SEMESTRE 6</h2>
+<div class="materia" data-codigo="ECON102" data-semestre="6" data-prerequisitos="ECON101" data-creditos="3">
+    <h3>Econometria II</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="MACRO103" data-semestre="6" data-prerequisitos="MACRO102,MICRO103" data-creditos="3">
+    <h3>Politica Macroeconomica</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="TEC101" data-semestre="6" data-prerequisitos="MICRO103,MACRO102,ECON101" data-creditos="4">
+    <h3>Taller de Técnicas de Investigación</h3><p>Créditos: 4</p>
+</div>
+<div class="materia" data-codigo="TEO101" data-semestre="6" data-prerequisitos="MACRO102" data-creditos="3">
+    <h3>Teoría y Política Económica Internacional</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="ECOFIN101" data-semestre="6" data-prerequisitos="ECON101,MICRO103" data-creditos="3">
+    <h3>Economia Financiera</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="IDM106" data-semestre="6" data-prerequisitos="IDM105" data-creditos="2">
+    <h3>Idioma VI</h3><p>Créditos: 2</p>
+</div>
+</div>
+
+<div class="semestre" data-semestre="7">
+<h2>SEMESTRE 7</h2>
+<div class="materia" data-codigo="TAL101" data-semestre="7" data-prerequisitos="MACRO102" data-creditos="4">
+    <h3>Taller de Coyuntura Economica Colombiana</h3><p>Créditos: 4</p>
+</div>
+<div class="materia" data-codigo="ECOPOL101" data-semestre="7" data-prerequisitos="DER101" data-creditos="3">
+    <h3>Economia Politica e Institucional</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="DOC101" data-semestre="7" data-prerequisitos="MACRO102,MICRO103" data-creditos="4">
+    <h3>Dotrinas Economicas</h3><p>Créditos: 4</p>
+</div>
+<div class="materia" data-codigo="CRE101" data-semestre="7" data-prerequisitos="MACRO103" data-creditos="4">
+    <h3>Crecimiento y Desarrollo Economico</h3><p>Créditos: 4</p>
+</div>
+<div class="materia" data-codigo="ELEF101" data-semestre="7" data-prerequisitos="" data-creditos="3">
+    <h3>Electiva Fundamental I</h3><p>Créditos: 3</p>
+</div>
+</div>
+<div class="semestre" data-semestre="8">
+<h2>SEMESTRE 8</h2>
+<div class="materia" data-codigo="ELEF102" data-semestre="8" data-prerequisitos="" data-creditos="3">
+    <h3>Electiva Fundamental II</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="ELEA101" data-semestre="8" data-prerequisitos="" data-creditos="3">
+    <h3>Electiva Avanzada I</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="ELEA102" data-semestre="8" data-prerequisitos="" data-creditos="3">
+    <h3>Electiva Avanzada II</h3><p>Créditos: 3</p>
+</div>
+<div class="materia" data-codigo="ELEI101" data-semestre="8" data-prerequisitos="" data-creditos="2">
+    <h3>Electiva Intermedia I</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="ELEI102" data-semestre="8" data-prerequisitos="" data-creditos="2">
+    <h3>Electiva Intermedia II</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="ELEI103" data-semestre="8" data-prerequisitos="" data-creditos="2">
+    <h3>Electiva Intermedia III</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="HAB101" data-semestre="8" data-prerequisitos="" data-creditos="2">
+    <h3>Taller de Habilidades Profesionales</h3><p>Créditos: 2</p>
+</div>
+<div class="materia" data-codigo="COM101" data-semestre="8" data-prerequisitos="" data-creditos="1">
+    <h3>Taller de Competencia en Economía</h3><p>Créditos: 1</p>
+</div>
+</div>
+<div class="semestre" data-semestre="9">
+<h2>SEMESTRE 9</h2>
+<div class="materia" data-codigo="OPG101" data-semestre="9" data-prerequisitos="" data-creditos="18">
+    <h3>Opcion de Grado</h3><p>Créditos: 18</p>
+</div>
+</div>
+    </div>
+
+<script src="script.js"></script>
+<div id="tooltip-materia" style="display: none;"></div>
+
+</body>
+</html>
